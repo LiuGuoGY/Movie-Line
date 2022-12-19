@@ -1,0 +1,122 @@
+.App {
+}
+
+
+.appBackgroud {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ellipse1 {
+  position: absolute;
+  width: 423px;
+  height: 423px;
+  left: 90%;
+  bottom: -5%;
+
+  background: #947DF1;
+  opacity: 0.15;
+  filter: blur(50px);
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 423px;
+  height: 423px;
+  left: 90%;
+  top: -5%;
+
+  background: #DE459F;
+  opacity: 0.1;
+  filter: blur(50px);
+}
+
+.ellipse3 {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  left: 65%;
+  top: 35%;
+
+  background: #947DF1;
+  opacity: 0.3;
+  filter: blur(50px);
+}
+
+.ellipse4 {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  left: 50%;
+  top: 85%;
+
+  background: #F74440;
+  opacity: 0.3;
+  filter: blur(50px);
+}
+
+.ellipse5 {
+  position: absolute;
+  width: 272px;
+  height: 260px;
+  left: 15%;
+  top: 62%;
+  
+  background: #F74440;
+  opacity: 0.1;
+  filter: blur(50px);
+}
+
+.ellipse6 {
+  position: absolute;
+  width: 262px;
+  height: 262px;
+  left: 2%;
+  top: 25%;
+
+  background: #20CD7E;
+  opacity: 0.15;
+  filter: blur(50px);
+}
+
+.ellipse7 {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  left: 30%;
+  top: 3%;
+  
+  background: #FEDC32;
+  opacity: 0.3;
+  filter: blur(50px);
+}
+
+.dateBox {
+  position: absolute;
+  width: auto;
+  height: 22px;
+  left: 20px;
+  top: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dateBox p {
+  width: 50px;
+  height: 22px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  user-select: none;
+}
+
+.dateBox svg {
+  width: 22px;
+  height: 22px;
+}
