@@ -1,5 +1,37 @@
+import React from 'react';
 import styles from './App.module.css';
 import { Divider } from 'antd';
+
+class TimeCard extends React.Component {
+  render() {
+      return (
+          <div className={styles.time_card_content_ouline}>
+            <div className={styles.time_card_cover}></div>
+            <div className={styles.time_card_right_content}>
+              <div className={styles.time_card_title_view}>神奇动物：邓布利多之谜</div>
+              <div className={styles.time_card_subtitle_view}>神奇动物系列第三部</div>
+            </div>
+          </div>
+      );
+  }
+}
+
+class TimeCardNode extends React.Component {
+  render() {
+      return (
+          <div className={styles.time_card_view_hor}>
+            <div className={styles.time_card_node_ball}></div>
+            <div className={styles.time_card_node_line_left}></div>
+            {/* <div className={styles.time_card_node_line_right}></div> */}
+            <div className={styles.time_card_time_text_right}>4月21日</div>
+            {/* <div className={styles.time_card_backgroud_outline_left}></div> */}
+            <div className={styles.time_card_backgroud_outline_left}>
+              <TimeCard></TimeCard>
+            </div>
+          </div>
+      );
+  }
+}
 
 function App() {
   return (
@@ -13,8 +45,11 @@ function App() {
         <div className={styles.ellipse6} />
         <div className={styles.ellipse7} />
       </div>
-      <div className={styles.content}>
-        <div className={styles.timeline}></div>
+      <div className={styles.contentWin}>
+        <div className={styles.content}>
+          <div className={styles.timeline}></div>
+          <TimeCardNode></TimeCardNode>
+        </div>
       </div>
       <div className={styles.dateBox}>
         <p>2022</p>
